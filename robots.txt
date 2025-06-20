@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jiyadimrane.github.io/JIYADTV/sitemap.xml
