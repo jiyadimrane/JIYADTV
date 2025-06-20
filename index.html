@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>JIYADMOVIS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+    }
+
+  body {
+      margin: 0;
+      height: 100vh;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 2rem;
+      font-family: 'Cairo', sans-serif;
+      text-shadow: 2px 2px 4px black;
+    }
+    body::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.7); /* تغطية داكنة لتوضيح النص */
+      z-index: 0;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      max-width: 700px;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      color: #ff0000;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      color: #ffffff;
+      margin-bottom: 20px;
+    }
+
+    .legal {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      color: #ccc;
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 2rem; }
+      h2 { font-size: 1.2rem; }
+      .legal { font-size: 0.95rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>🎬 JIYAD MOVIES</h1>
+    <h2>قريبًا... المنصة الرسمية عِمران جياد</h2>
+
+    <div class="legal">
+      نعمل على تطوير منصة احترافية لعرض الأفلام والمسلسلات بجودة عالية.<br><br>
+      <strong>إذا لم نواجه مشاكل قانونية في حقوق النشر،</strong><br>
+      سيتم إطلاق الموقع خلال سنة 2026 إن شاء الله.<br><br>
+      شكراً لثقتكم ودعمكم 💙
+    </div>
+
+    <footer>© 2025 جميع الحقوق محفوظة عِمران جياد</footer>
+  </div>
+</body>
+</html>
